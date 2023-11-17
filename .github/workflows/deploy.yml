@@ -36,4 +36,4 @@ jobs:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         publish_dir: ./public
         publish_branch: gh-pages
-        cname: your-custom-domain.com # Optional: Set your custom domain here
+        cname: yesthatsmesai.info # Optional: Set your custom domain here
