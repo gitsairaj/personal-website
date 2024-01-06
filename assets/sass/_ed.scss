@@ -51,6 +51,7 @@ body {
   color: $text-color;
   background-color: #fff;
   @include text-size-adjust(100%);
+  
 }
 
 .content {
@@ -788,4 +789,17 @@ li.prose-indent {
 .theme-base-brown .sidebar-toggle,
 .theme-base-brown .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* custom1 */
+.theme-base-custom1 .sidebar,
+.theme-base-custom1 .sidebar-toggle:active,
+.theme-base-custom1 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #088395;
+}
+
+.theme-base-custom1 .container a,
+.theme-base-custom1 .sidebar-toggle,
+.theme-base-custom1 .related-posts li a:hover {
+  color: #0766AD;
 }

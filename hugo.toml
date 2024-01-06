@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'SA!'
+title = 'Sairaj Magar'
 [module]
 
   # this is needed when you fetch the theme as a submodule to your repo.
@@ -13,6 +13,7 @@ title = 'SA!'
 
 [languages]
   [languages.en.params]
+    colorScheme = 'custom1'
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
@@ -20,7 +21,17 @@ title = 'SA!'
         url = "/about"
         weight = 1
       [[languages.en.menu.main]]
+        identifier = "blogs"
+        name = "Blogs"
+        url = "/blogs"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "certifications"
+        name = "Certifications"
+        url = "/certifications"
+        weight = 3
+      [[languages.en.menu.main]]
         identifier = "contact"
         name = "Contact"
         url = "/contact"
-        weight = 2
+        weight = 4

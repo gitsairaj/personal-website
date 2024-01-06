@@ -1,6 +1,6 @@
 ---
 title: Search
-annotations: false
+annotations: true
 ---
 
 {{< form-search >}}
